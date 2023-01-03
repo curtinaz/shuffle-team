@@ -9,7 +9,7 @@ shuffleForm.addEventListener('submit', e => {
     var player = document.querySelector("#newPlayer");
 
     if (player.value == '') {
-        window.alert('Coé paizão?')
+        window.alert('Insira um nome')
         return;
     }
 
