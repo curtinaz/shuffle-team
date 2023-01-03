@@ -1,0 +1,31 @@
+.form_control {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputButton {
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-columns: 8fr 2fr;
+    grid-column-gap: 10px;
+}
+
+#playerBoard {
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 10px;
+}
+
+section {
+    width: 600px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+* {
+    box-sizing: border-box;
+}
