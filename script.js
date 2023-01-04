@@ -9,12 +9,12 @@ shuffleForm.addEventListener('submit', e => {
     var player = document.querySelector("#newPlayer");
 
     if (player.value == '') {
-        window.alert('Insira um nome')
+        window.alert('Nenhum jogador foi adicionado')
         return;
     }
 
     if (possibilities.indexOf(player.value) >= 0) {
-        window.alert('Tu não viu que tu já adicionou essa pessoa idiota?')
+        window.alert('Essa pessoa já foi adicionada!')
         player.value = '';
         return;
     }
