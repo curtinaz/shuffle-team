@@ -6,8 +6,8 @@
 }
 
 :root {
-    --color-main: #182645;
-    --background: #d3d8e1;
+    --color-main: #24597e;
+    --background: #ffffff;
 }
 
 body {
@@ -30,7 +30,7 @@ button {
     border-style: none;
     border-radius: 15px;
     cursor: pointer;
-    padding: 8px;
+    padding: 10px 15px;
 }
 
 p {
@@ -41,6 +41,7 @@ input {
     border: 1px solid rgb(81, 81, 81);
     border-radius: 15px;
     background-color: var(--background);
+    padding: 10px 15px;
 }
 
 .form_control {
@@ -50,6 +51,7 @@ input {
 }
 
 .inputButton {
+    margin-top: 10px;
     display: grid;
     grid-auto-flow: row;
     grid-template-columns: 8fr 2fr;
@@ -61,4 +63,5 @@ input {
     grid-auto-flow: row;
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 10px;
+    color: var(--color-main);
 }
